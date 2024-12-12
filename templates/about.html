@@ -1,0 +1,18 @@
+<!-- Create an about page for my Website-->
+ <!doctype html>
+ <html>
+    <head>
+        <title> about </title>
+    </head>
+    <body>
+        <h1> About </h1>
+        <p> This is a simple website I create to help to learn how to use the Flask web Framework </p>
+
+        {% if location %}
+        <p> If I'm ever on {{ location }} I'd love to say hi! <p>
+            {% else %}
+            <p> Drop a line , let me know where you are! </p>
+            {% endif %}
+
+    </body>
+    </html>
